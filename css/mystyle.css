@@ -1,0 +1,61 @@
+/*------------------------------------------------------------------
+                            RESET STYLES
+-------------------------------------------------------------------*/
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+/*------------------------------------------------------------------
+                            SECTION STYLES
+-------------------------------------------------------------------*/
+
+section {
+    margin: 50px 0;
+}
+
+section ul {
+    text-align: center;
+}
+
+section a {
+    padding: 15px;
+    color: #404040;
+}
+
+section a:not(:first-child) {
+    margin-left: 20px;
+}
+
+section i {
+    vertical-align: middle;
+    transition: color .3s ease-in-out;
+}
+
+
+/* For the Github Icon */
+
+section a:nth-child(1):hover i {
+    color: #0066FF;
+}
+
+
+/* For the Linkedin Icon */
+
+section a:nth-child(2):hover i {
+    color: #0066FF;
+}
+
+
+/* For the Resume Icon */
+
+section a:nth-child(3):hover i {
+    color: #0066FF;
+}
