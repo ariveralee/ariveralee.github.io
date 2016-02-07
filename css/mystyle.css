@@ -43,19 +43,19 @@ section i {
 /* For the Github Icon */
 
 section a:nth-child(1):hover i {
-    color: #0066FF;
+    color: #C80000;
 }
 
 
 /* For the Linkedin Icon */
 
 section a:nth-child(2):hover i {
-    color: #0066FF;
+    color: #C80000;
 }
 
 
 /* For the Resume Icon */
 
 section a:nth-child(3):hover i {
-    color: #0066FF;
+    color: #C80000;
 }
