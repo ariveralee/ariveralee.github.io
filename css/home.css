@@ -739,14 +739,17 @@
 
 #about { padding: 100px 0 140px; font-family: 'Open Sans', sans-serif; background: whitesmoke; }
 #about h1 { font-size: 1.9em; color: #7c8184; text-transform: uppercase; letter-spacing: 8px; margin-top: 30px; margin-bottom: 15px; }
-#about a { color: black; padding-bottom: 2px; border-bottom: 1px solid black; }
-#about a:hover { border-bottom: 1px dashed black; }
+/* there's no a elements here so this is used for the resume icon */
+#about a { color: #7c8184; padding-bottom: 2px; border-bottom: none; font-size: 2.0em; display: inline-block; min-width: 50px; min-height: 75px; margin: 0 30px; margin-top: 15px ;padding: 0 30px; position: relative; list-style: none;}
+#about a:hover { color: #000000; }
 #about .dash { animation-duration: 3.5s; -webkit-animation-duration: 3.5s; -moz-animation-duration: 3.5s; -o-animation-duration: 3.5s; ms-animation-duration: 3.5s; background: lightgray; }
 #about p { color: #666666; margin: 0 auto; font-size: 1.4em; letter-spacing: 0.04em; line-height: 1.7em; font-weight: 300; }
 #about img {max-width: 40em; max-height: 20em; border: .65em solid #2d2d2d;}
-#about .resume {font-size: 2.5em; display: inline-block; min-width: 50px; min-height: 75px; margin: 0 30px; margin-top: 15px ;padding: 0 30px; position: relative; list-style: none;}
+/* commented the below out in the even that I need to add any a elements to about */
+/*#about .resume {font-size: 2.5em; display: inline-block; min-width: 50px; min-height: 75px; margin: 0 30px; margin-top: 15px ;padding: 0 30px; position: relative; list-style: none;}
 #about .resume a {border-bottom: none; color: #7c8184;}
-#about .resume:hover a {color: #000000; }
+#about .resume:hover a {color: #000000; }*/
+
 #interests { padding-top: 70px; padding-bottom: 105px; background: white; position: relative; text-align: center; border-color: white; position: relative; }
 #interests h1 { margin-bottom: 35px; font-size: 2em; font-weight: 300; color: gray; letter-spacing: 0.2em; }
 #interests .bold { font-weight: 600; }
@@ -790,7 +793,6 @@
 #contact a.contact { padding: 8px 15px; border: 1px solid lightgray; border-radius: 3px; font-size: 1.4em; font-weight: 300; letter-spacing: 1px; color: #6c6c6c; }
 #contact a.contact i { margin-left: 10px; font-size: 20px; }
 #contact a.contact:hover { color: lightgray; background: gray; border: 1px solid gray; }
-#contact .paperplane { color: #a6a6a6; font-size: 5em; }
 
 #footer { padding: 65px 0 150px; background: #3c3838; text-align: center; font-weight: 300; }
 #footer h3 { color:#bdbdbd;}
