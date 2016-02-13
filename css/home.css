@@ -1570,6 +1570,7 @@
     background: rgba(1, 1, 1, 0.2);
     width: 100%;
     z-index: 99999;
+    position: fixed;
 }
 
 .small-nav ul {
@@ -1607,7 +1608,7 @@
 .navigation #navicon:after {
     content: 'CLOSE';
     display: block;
-    font-size: 12px;
+    font-size: 15px;
     margin-top: -4px;
     margin-left: 2px;
 }
@@ -1626,7 +1627,7 @@
 }
 
 .navigation #navicon:hover {
-    color: #666666;
+    color: #202020;
     cursor: pointer;
 }
 
@@ -1857,6 +1858,7 @@
     font-weight: 300;
     font-size: 15px;
     line-height: 25px;
+    text-align: left;
 }
 
 #interests .dash {
