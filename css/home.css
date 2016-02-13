@@ -1928,7 +1928,7 @@
     float: left;
     width: 100%;
     margin-bottom: 15px;
-    height: 26em;
+    height: auto;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
