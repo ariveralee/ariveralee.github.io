@@ -1898,9 +1898,11 @@
 }
 
 #work h4 {
+    text-align: center;
     padding: 25px 15px;
     margin: 0;
     color: #F0F0F0;
+    font-size: 1.7em;
 }
 
 #work p {
@@ -1963,6 +1965,13 @@
 
 #work .item-7 {
     background: #353535;
+}
+
+#work .right h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 0 35px;
+    color: #F0F0F0;
 }
 
 #work .right h2 {
