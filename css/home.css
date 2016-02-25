@@ -1601,7 +1601,7 @@
 }
 
 .navigation #navicon:before {
-    font-family: Flaticon, sans-serif;
+    font-family: sans-serif;
     content: "\e142";
 }
 
