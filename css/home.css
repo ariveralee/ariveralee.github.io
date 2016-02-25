@@ -71,6 +71,7 @@
     margin-right: 0;
 }
 
+
 /*@font-face {
     font-family: "Flaticon";
     src: url("flaticon.eot");
@@ -1590,19 +1591,29 @@
     color: white;
 }
 
+
+/* This is for the menu button */
+
 .navigation #navicon {
+    font-family: FontAwesome;
+    content: "\f0c9";
+    display: inline-block;
+    text-align: center;
     position: fixed;
     color: gray;
-    font-size: 2.8em;
+    font-size: 2.0em;
+    font-weight: lighter;
     margin-top: 0.8em;
     outline: none;
     z-index: 999;
     margin-left: 0.5em;
 }
 
+
+/* Size of the menu button */
+
 .navigation #navicon:before {
-    font-family: sans-serif;
-    content: "\e142";
+    /*font-size: 0.8em;*/
 }
 
 .navigation #navicon:after {
@@ -1617,8 +1628,11 @@
     margin-left: 1em;
 }
 
+
+/* for the menu button, the bars */
+
 .navigation #navicon.closed:before {
-    content: "\e0bb";
+    content: "\f0c9";
 }
 
 .navigation #navicon.closed:after {
@@ -1702,7 +1716,7 @@
     -o-animation-delay: 2s;
     ms-animation-delay: 2s;
     text-align: center;
-    color: #D3D3D3;
+    color: #FFFFFF;
 }
 
 #introduction .chevron div {
