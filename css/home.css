@@ -1784,8 +1784,8 @@
 #about p {
     color: #666666;
     margin: 0 auto;
-    font-size: 1.4em;
-    letter-spacing: 0.04em;
+    font-size: 1.em;
+    letter-spacing: 0.02em;
     line-height: 1.7em;
     font-weight: 300;
 }
@@ -2113,7 +2113,7 @@
 }
 
 #footer ul li a i {
-    font-size: 2em;
+    font-size: 1.3em;
 }
 
 #footer ul li a p {
