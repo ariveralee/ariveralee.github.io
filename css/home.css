@@ -1757,10 +1757,10 @@
     color: #7c8184;
     padding-bottom: 2px;
     border-bottom: none;
-    font-size: 2.0em;
+    font-size: 1.5em;
     display: inline-block;
-    min-width: 50px;
-    min-height: 75px;
+    min-width: 40px;
+    min-height: 65px;
     margin: 0 30px;
     margin-top: 15px;
     padding: 0 30px;
@@ -2060,7 +2060,7 @@
     padding: 8px 15px;
     border: 1px solid lightgray;
     border-radius: 3px;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: 300;
     letter-spacing: 1px;
     color: #6c6c6c;
