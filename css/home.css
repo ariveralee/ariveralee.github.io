@@ -1636,6 +1636,7 @@
 }
 
 .navigation #navicon.closed:after {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     content: 'MENU';
     display: block;
 }
@@ -1784,9 +1785,9 @@
 #about p {
     color: #666666;
     margin: 0 auto;
-    font-size: 1.4em;
-    letter-spacing: 0.04em;
-    line-height: 1.7em;
+    font-size: 1.25em;
+    letter-spacing: 0.03em;
+    line-height: 1.4em;
     font-weight: 300;
 }
 
@@ -2100,8 +2101,8 @@
     display: inline-block;
     min-width: 50px;
     min-height: 75px;
-    margin: 0 30px;
-    padding: 0 30px;
+    margin: 0 15px;
+    padding: 0 15px;
     position: relative;
 }
 
@@ -2113,7 +2114,7 @@
 }
 
 #footer ul li a i {
-    font-size: 3em;
+    font-size: 2.1em;
 }
 
 #footer ul li a p {
