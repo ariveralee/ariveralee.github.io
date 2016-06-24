@@ -2101,8 +2101,8 @@
     display: inline-block;
     min-width: 50px;
     min-height: 75px;
-    margin: 0 5px;
-    padding: 0 5px;
+    margin: 0 10px;
+    padding: 0 10px;
     position: relative;
 }
 
@@ -2114,7 +2114,7 @@
 }
 
 #footer ul li a i {
-    font-size: 2.1em;
+    font-size: 2em;
 }
 
 #footer ul li a p {
@@ -2129,9 +2129,12 @@
     color: inherit;
 }
 
+/* removed */
+/*
 #footer ul .email:hover a {
     color: #000000;
 }
+*/
 
 #footer ul .github:hover a {
     color: #000000;
