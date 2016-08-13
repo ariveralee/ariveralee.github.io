@@ -1889,8 +1889,8 @@
 #work h1 {
     text-align: center;
     font-size: 2em;
-    margin: 0 0 35px;
-    color: #F0F0F0;
+    margin: 0 0 30px;
+    color: #ff6600;
 }
 
 #work h2 {
@@ -1899,13 +1899,14 @@
 }
 
 #work h3 {
-    margin-top: 0;
+   /* margin-top: -50px;*/
     font-size: 1.7em;
     text-transform: none;
+    color: #ff8533;
 }
 
 #work h3 a {
-    color: #0099ff;
+    color: #ff8533;
 }
 
 #work h3 a:hover {
@@ -1917,15 +1918,18 @@
     padding: 25px 15px;
     margin: 0;
     color: #F0F0F0;
-    font-size: 1.7em;
+    font-size: 1.5em;
 }
 
 #work p {
-    font-size: 14px;
+    position: center;
+    display: inline-block;
+    font-size: 16px;
     letter-spacing: 2px;
     line-height: 1.8em;
     font-weight: 300;
     color: #F0F0F0;
+    text-align: left;
 }
 
 #work .dash {
@@ -1939,23 +1943,30 @@
 }
 
 #work .item {
-    padding: 25px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
-
+/*#work .item img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}*/
 #work .item img {
     position: relative;
     float: left;
-    width: 100%;
+    display: inline-block;
+    max-width: 100%;
     margin-bottom: 15px;
     height: auto;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     border: .40em solid #282828;
-}
+ }
 
 #work .item-1 {
     background: #343434;
+
 }
 
 #work .item-2 {
@@ -1975,7 +1986,7 @@
 }
 
 #work .item-6 {
-    background: #353535;
+    background: #3a3a3a;
 }
 
 #work .item-7 {
@@ -2080,13 +2091,13 @@
 
 #footer {
     padding: 65px 0 150px;
-    background: #3c3838;
+    background: whitesmoke;
     text-align: center;
     font-weight: 300;
 }
 
 #footer h3 {
-    color: #bdbdbd;
+    color: #333333;
 }
 
 #footer h4 {
@@ -2101,20 +2112,22 @@
     display: inline-block;
     min-width: 50px;
     min-height: 75px;
-    margin: 0 10px;
+    margin: 0 4px;
     padding: 0 10px;
     position: relative;
+
 }
 
 
 /* color of the icons before hover state */
 
 #footer ul li a {
-    color: #bdbdbd;
+    color: #4d4d4d;
 }
 
 #footer ul li a i {
     font-size: 2em;
+
 }
 
 #footer ul li a p {
@@ -2129,12 +2142,12 @@
     color: inherit;
 }
 
-/* removed */
-/*
+/* hover state of icons */
+
 #footer ul .email:hover a {
     color: #000000;
 }
-*/
+
 
 #footer ul .github:hover a {
     color: #000000;
@@ -2158,7 +2171,7 @@
 #footer .license {
     text-transform: none;
     font-family: Georgia, sans-serif;
-    color: #bdbdbd;
+    color: #333333;
     letter-spacing: 1px;
     font-size: 11px;
     margin-top: 45px;
