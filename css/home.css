@@ -1636,9 +1636,10 @@
 }
 
 .navigation #navicon.closed:after {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     content: 'MENU';
     display: block;
+    font-weight: 400;
 }
 
 .navigation #navicon:hover {
@@ -1656,6 +1657,7 @@
     bottom: 0;
     right: 0;
     z-index: 999;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .brand h1 {
@@ -1738,7 +1740,7 @@
 
 #about {
     padding: 100px 0 140px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background: whitesmoke;
 }
 
@@ -1770,7 +1772,7 @@
 }
 
 #about a:hover {
-    color: #000000;
+    color: #ff6600;
 }
 
 #about .dash {
@@ -1789,21 +1791,18 @@
     letter-spacing: 0.03em;
     line-height: 1.4em;
     font-weight: 300;
+    max-width: 80%;
 }
+
+
+/* padding creates space between the image and border */
 
 #about img {
     max-width: 60em;
     max-height: 40em;
+    padding: 2.5px;
     border: .25em solid #2d2d2d;
 }
-
-
-/* commented the below out in the event that I need to add any a elements to about */
-
-
-/*#about .resume {font-size: 2.5em; display: inline-block; min-width: 50px; min-height: 75px; margin: 0 30px; margin-top: 15px ;padding: 0 30px; position: relative; list-style: none;}
-#about .resume a {border-bottom: none; color: #7c8184;}
-#about .resume:hover a {color: #000000; }*/
 
 #interests {
     padding-top: 70px;
@@ -1813,6 +1812,7 @@
     text-align: center;
     border-color: white;
     position: relative;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #interests h1 {
@@ -1883,7 +1883,7 @@
 #work {
     padding: 50px 0 80px;
     color: #9c9c9c;
-    background: #363636;
+    background: #404040;
 }
 
 #work h1 {
@@ -1900,7 +1900,7 @@
 }
 
 #work h3 {
-   /* margin-top: -50px;*/
+    /* margin-top: -50px;*/
     font-size: 1.7em;
     text-transform: none;
     color: #ff8533;
@@ -1908,6 +1908,14 @@
 
 #work h3 a {
     color: #ff8533;
+}
+
+#work a {
+    color: #9c9c9c;
+}
+
+#work a:hover {
+    color: #ff6600;
 }
 
 #work h3 a:hover {
@@ -1947,11 +1955,7 @@
     padding: 20px;
     margin-bottom: 20px;
 }
-/*#work .item img.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}*/
+
 #work .item img {
     position: relative;
     float: left;
@@ -1962,12 +1966,13 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    border: .40em solid #282828;
- }
+    padding: 3.5px;
+    border: .25em solid #737373;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 
 #work .item-1 {
     background: #353535;
-
 }
 
 #work .item-2 {
@@ -2046,6 +2051,7 @@
     background: whitesmoke;
     color: gray;
     text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #contact h1 {
@@ -2095,6 +2101,7 @@
     background: whitesmoke;
     text-align: center;
     font-weight: 300;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #footer h3 {
@@ -2115,8 +2122,6 @@
     min-height: 75px;
     margin: 0 1em;
     padding: 0 10px;
-    
-
 }
 
 
@@ -2128,7 +2133,6 @@
 
 #footer ul li a i {
     font-size: 2.0em;
-
 }
 
 #footer ul li a p {
@@ -2143,12 +2147,12 @@
     color: inherit;
 }
 
+
 /* hover state of icons */
 
 #footer ul .email:hover a {
     color: #000000;
 }
-
 
 #footer ul .github:hover a {
     color: #000000;
@@ -2171,7 +2175,7 @@
 
 #footer .license {
     text-transform: none;
-    font-family: Georgia, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #333333;
     letter-spacing: 1px;
     font-size: 11px;
