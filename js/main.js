@@ -22,11 +22,9 @@
             items = [
                 ['#about p', 'fadeInUp'],
                 ['.column', 'fadeInUp'],
-                ['.item h3', 'fadeInLeft'],
-                ['.item', 'fadeInDown'],
+                ['.item h3', 'fadeInDown'],
+                ['.item', 'fadeInLeft'],
                 ['.item p', 'fadeInUp'],
-                ['.bar', 'fadeInRight'],
-                ['.paperplane', 'bounceInDown'],
                 ['#quote .container', 'fadeIn'],
                 ['#quote .icon', 'fadeInDown']
             ];
