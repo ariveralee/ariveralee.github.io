@@ -1741,12 +1741,12 @@
 #about {
     padding: 100px 0 140px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background: whitesmoke;
+    background: #404040;
 }
 
 #about h1 {
     font-size: 1.9em;
-    color: #282828;
+    color: #ff6600;
     text-transform: uppercase;
     letter-spacing: 8px;
     margin-top: 30px;
@@ -1785,7 +1785,7 @@
 }
 
 #about p {
-    color: #666666;
+    color: #F0F0F0;
     margin: 0 auto;
     font-size: 1.25em;
     letter-spacing: 0.03em;
@@ -1800,8 +1800,8 @@
 #about img {
     max-width: 60em;
     max-height: 40em;
-    padding: 2.5px;
-    border: .25em solid #2d2d2d;
+    padding: 5px;
+    border: .25em solid #ff6600;
 }
 
 #interests {
@@ -1966,8 +1966,8 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 3.5px;
-    border: .25em solid #737373;
+    padding: 4.5px;
+    border: .25em solid #ff6600;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
