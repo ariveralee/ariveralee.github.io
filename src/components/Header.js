@@ -1,7 +1,6 @@
 import React from "react";
-
-import Navigation from "./Navigation";
 import Banner from "./Banner";
+import Navigation from "./Navigation";
 import ScrollDown from "./ScrollDown";
 
 const Header = () => (

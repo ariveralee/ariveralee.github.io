@@ -1187,12 +1187,13 @@ body {
 
 header {
     position: relative;
+    margin-top: 48px;
     height: 800px;
-    min-height: 500px;
     width: 100%;
     background: #161415 url(../images/header-background.jpg) no-repeat top center;
-    background-size: cover !important;
-    -webkit-background-size: cover !important;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
     text-align: center;
     overflow: hidden;
 }
@@ -1220,24 +1221,20 @@ header .banner-text {
 }
 
 header .banner-text h1 {
-    font: 90px/1.1em "opensans-bold", sans-serif;
-    color: #fff;
+    font: 100px/1.1em "Source Sans Pro", sans-serif;
+    color: #FF9C00;
     letter-spacing: -2px;
-    margin: 0 auto 18px auto;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+    margin: 125px auto 18px auto;
+    text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.8);
 }
 
 header .banner-text h3 {
-    font: 22px/2.2em "librebaskerville-regular", serif;
-    color: #ffffff;
-    margin: 0 auto;
-    width: 70%;
+    font: 25px/1.7em "Source Sans Pro", sans-serif;
+    color: #F2F2F2;
+    letter-spacing: -2px;
+    margin: 0 auto 18px auto;
     font-weight: bold;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
-}
-
-header .banner-text h3 span, header .banner-text h3 a {
-    color: #ffffff;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
 header .banner-text hr {
@@ -1245,29 +1242,6 @@ header .banner-text hr {
     margin: 18px auto 24px auto;
     border-color: #2f2d2e;
     border-color: rgba(150, 150, 150, 0.1);
-}
-
-/* header social links */
-
-header .social {
-    margin: 24px 0;
-    padding: 0;
-    font-size: 40px;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
-}
-
-header .social li {
-    display: inline-block;
-    margin: 0 15px;
-    padding: 0;
-}
-
-header .social li a {
-    color: #ffffff;
-}
-
-header .social li a:hover {
-    color: #e55e04;
 }
 
 /* scrolldown link */
@@ -1292,7 +1266,7 @@ header .scrolldown a {
 }
 
 header .scrolldown a:hover {
-    color: #e55e04;
+    color: #FF9C00;
 }
 
 /* primary navigation
@@ -1314,6 +1288,7 @@ header .scrolldown a:hover {
     font-weight: bold;
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
     letter-spacing: 2.5px;
+    background: #333333;
     margin: 0 auto;
     z-index: 100;
     position: fixed;
@@ -1350,7 +1325,7 @@ ul#nav li {
 ul#nav li a {
     /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
     display: inline-block;
-    color: #e55e04;
+    color: #FF9C00;
     padding: 8px 13px;
     line-height: 32px;
     text-decoration: none;
@@ -1412,31 +1387,6 @@ ul#nav li a:active {
 #about .main-col {
     padding-right: 5%;
 }
-
-/* about social links */
-
-#about .social {
-    margin: 24px 0;
-    padding: 0;
-    font-size: 40px;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
-    text-align: left;
-}
-
-#about .social li {
-    display: inline-block;
-    margin: 0 15px;
-    padding: 0;
-}
-
-#about .social li a {
-    color: #e55e04;
-}
-
-#about .social li a:hover {
-    color: #ffffff;
-}
-
 
 /* ------------------------------------------------------------------ */
 
@@ -1796,12 +1746,11 @@ ul#nav li a:active {
     font-size: 17px;
 }
 
-/*#
-call-to-action .button {
+#call-to-action .button {
 	color:#fff;
    background: #0D0D0D;
 }
-*/
+
 
 #call-to-action .button:hover, #call-to-action .button:active {
     background: #ffffff;
@@ -2307,8 +2256,6 @@ footer .social li:first-child {
  ------------------------------------------------------------------ */
     header .banner-text h1 {
         font: 80px/1.1em 'Source Sans Pro', sans-serif;
-        letter-spacing: -1px;
-        margin: 0 auto 12px auto;
     }
 }
 
@@ -2323,11 +2270,6 @@ footer .social li:first-child {
     }
     header .banner-text h1 {
         font: 78px/1.1em 'Source Sans Pro', sans-serif;
-        letter-spacing: -1px;
-    }
-    header .banner-text h3 {
-        font: 17px/1.9em 'librebaskerville-regular', serif;
-        width: 80%;
     }
     header .banner-text hr {
         width: 65%;
@@ -2395,82 +2337,11 @@ footer .social li:first-child {
 @media only screen and (max-width: 767px) {
     /* mobile navigation
  -------------------------------------------------------------------- */
-    #nav-wrap {
-        font: 12px 'opensans-bold', sans-serif;
-        background: transparent !important;
-        letter-spacing: 1.5px;
-        width: auto;
-        position: fixed;
-        top: 0;
-        right: 0;
-    }
-    #nav-wrap>a {
-        width: 48px;
-        height: 48px;
-        text-align: left;
-        background-color: #CC5200;
-        position: relative;
-        border: none;
-        float: right;
-        font: 0/0 a;
-        text-shadow: none;
-        color: transparent;
-        position: relative;
-        top: 0px;
-        right: 30px;
-    }
-    #nav-wrap>a:before, #nav-wrap>a:after {
-        position: absolute;
-        border: 2px solid #fff;
-        top: 35%;
-        left: 25%;
-        right: 25%;
-        content: '';
-    }
-    #nav-wrap>a:after {
-        top: 60%;
-    }
-    /* toggle buttons */
-    #nav-wrap:not( :target)>a:first-of-type, #nav-wrap:target>a:last-of-type {
-        display: block;
-    }
-    /* hide menu panel */
     #nav-wrap ul#nav {
-        height: auto;
-        display: none;
-        clear: both;
         width: auto;
-        float: right;
-        position: relative;
-        top: 12px;
-        right: 0;
+        float: none;
     }
-    /* display menu panels */
-    #nav-wrap:target>ul#nav {
-        display: block;
-        padding: 30px 20px 48px 20px;
-        background: #1f2024;
-        margin: 0 30px;
-        clear: both;
-    }
-    ul#nav li {
-        display: block;
-        height: auto;
-        margin: 0 auto;
-        padding: 0 4%;
-        text-align: left;
-        border-bottom: 1px solid #2D2E34;
-        border-bottom-style: dotted;
-    }
-    ul#nav li a {
-        display: block;
-        margin: 0;
-        padding: 0;
-        margin: 12px 0;
-        line-height: 16px;
-        /* reset line-height from 48px */
-        border: none;
-    }
+    
     /* Header Styles
  -------------------------------------------------------------------- */
     header .banner {
@@ -2478,24 +2349,11 @@ footer .social li:first-child {
         padding-top: 6px;
     }
     header .banner-text h1 {
-        font: 68px/1.1em 'Source Sans Pro', sans-serif;
-    }
-    header .banner-text h3 {
-        font: 16px/1.9em 'librebaskerville-regular', serif;
-        width: 85%;
+        font: 59px/1.1em 'Source Sans Pro', sans-serif;   
     }
     header .banner-text hr {
         width: 80%;
         margin: 18px auto;
-    }
-    /* header social links */
-    header .social {
-        margin: 18px 0 24px 0;
-        font-size: 24px;
-        line-height: 36px;
-    }
-    header .social li {
-        margin: 0 10px;
     }
     /* scrolldown link */
     header .scrolldown {
@@ -2504,7 +2362,11 @@ footer .social li:first-child {
     /* About Section
  -------------------------------------------------------------------- */
     #about .profile-pic {
-        display: none;
+        position: center;
+        margin: auto;
+        width: 200px;
+        height: 200px;
+        border-radius: 20%;
     }
     #about .download .button {
         width: 100%;
@@ -2670,19 +2532,30 @@ footer .social li:first-child {
         width: auto;
         float: none;
     }
+    #nav-wrap ul#nav li a {
+        font-size: 11px;
+        padding: 8px 3.5px;
+        width: auto;
+        float: none;
+    }
     /* header styles
  -------------------------------------------------------------------- */
     header .banner {
         padding-top: 24px;
     }
     header .banner-text h1 {
-        font-size: 40px/1.1em;
-        font-family: 'Source Sans Pro', sans-serif;
-        margin: 0 auto 24px auto;
+        font: 36px/1.1em "Source Sans Pro", sans-serif;
+        margin: 100px auto 18px auto;
+        text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.8);
     }
+    
     header .banner-text h3 {
-        font: 14px/1.9em 'librebaskerville-regular', sans-serif;
-        width: 90%;
+        font: 14px/1.7em "Source Sans Pro", sans-serif;
+        color: #F2F2F2;
+        letter-spacing: -1px;
+        margin: 0 auto 18px auto;
+        font-weight: bold;
+        text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.8);
     }
     /* header social links */
     header .social {
