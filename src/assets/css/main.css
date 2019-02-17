@@ -1187,7 +1187,6 @@ body {
 
 header {
     position: relative;
-    margin-top: 48px;
     height: 800px;
     width: 100%;
     background: #161415 url(../images/header-background.jpg) no-repeat top center;
@@ -1210,7 +1209,7 @@ header:before {
 header .banner {
     display: inline-block;
     vertical-align: middle;
-    margin: 0 auto;
+    margin: 125px auto 18px auto;
     width: 85%;
     padding-bottom: 30px;
     text-align: center;
@@ -1222,19 +1221,19 @@ header .banner-text {
 
 header .banner-text h1 {
     font: 100px/1.1em "Source Sans Pro", sans-serif;
-    color: #FF9C00;
+    color: #F2F2F2;
     letter-spacing: -2px;
-    margin: 125px auto 18px auto;
-    text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.8);
+    margin: 125px auto 0px auto;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.8);
 }
 
 header .banner-text h3 {
     font: 25px/1.7em "Source Sans Pro", sans-serif;
-    color: #F2F2F2;
+    color: #FF9C00;
     letter-spacing: -2px;
-    margin: 0 auto 18px auto;
+    margin: 0 auto 0px auto;
     font-weight: bold;
-    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 header .banner-text hr {
