@@ -3,14 +3,12 @@ import { FaPlus, FaTag } from "react-icons/lib/fa";
 
 import Wife from "../assets/images/portfolio/wife.jpg";
 import Children from "../assets/images/portfolio/children.jpg";
-import Judah from "../assets/images/portfolio/judah.jpg";
-import IntoTheLight from "../assets/images/portfolio/into-the-light.jpg";
 
-const Portfolio = () => (
-  <section id="portfolio">
+const Interests = () => (
+  <section id="interests">
     <div className="row">
       <div className="twelve columns collapsed">
-        <h1>What matters to me:</h1>
+        <h1>My Interests</h1>
 
         <div
           id="portfolio-wrapper"
@@ -50,43 +48,10 @@ const Portfolio = () => (
             </div>
           </div>
 
-          <div className="columns portfolio-item">
-            <div className="item-wrap">
-              <a href="#modal-03" title="">
-                <img alt="" src={Judah} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Judah</h5>
-                    <p>Webdesign</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns portfolio-item">
-            <div className="item-wrap">
-              <a href="#modal-04" title="">
-                <img alt="" src={IntoTheLight} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Into The Light</h5>
-                    <p>Photography</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
         </div>
       </div>
     </div>
   </section>
 );
 
-export default Portfolio;
+export default Interests;

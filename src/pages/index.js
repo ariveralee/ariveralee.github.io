@@ -3,18 +3,19 @@ import Link from "gatsby-link";
 
 import "../assets/css/main.css";
 
-import Header from "../components/Header";
-import About from "../components/About";
-import Resume from "../components/Resume";
-import Portfolio from "../components/Portfolio";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
+import Interests from "../components/Interests";
+import Portfolio from "../components/Portfolio";
+import Resume from "../components/Resume";
+
 
 const IndexPage = () => (
   <div>
     <Header />
-    <About />
-    <Resume />
     <Portfolio />
+    <Interests />
+    <Resume />
     <Footer />
   </div>
 );

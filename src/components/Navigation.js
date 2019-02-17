@@ -21,12 +21,12 @@ const Navigation = () => (
       </li>
       <li>
         <a className="smoothscroll" href="#portfolio">
-          Projects
+          Work
         </a>
       </li>
       <li>
         <a className="smoothscroll" href="#footer">
-          Footer
+          Contact
         </a>
       </li>
     </ul>
