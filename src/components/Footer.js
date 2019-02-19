@@ -9,11 +9,11 @@ const Footer = () => (
         <SocialLinks />
       </div>
 
-      <div id="go-top">
+      {/* <div id="go-top">
         <a className="smoothscroll" title="Back to Top" href="#home">
           <FaChevronCircleUp />
         </a>
-      </div>
+      </div> */}
     </div>
   </footer>
 );
