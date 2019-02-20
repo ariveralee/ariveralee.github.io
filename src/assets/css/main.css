@@ -365,10 +365,10 @@ p a, p a:visited {
 
 /*  4. List  --------------------------------------------------------- */
 
-ul, ol {
-    margin-bottom: 24px;
+/* ul, ol {
+    margin-bottom: 12px;
     margin-top: 12px;
-}
+} */
 
 ul {
     list-style: none outside;
@@ -403,7 +403,7 @@ ul ul li, ul ol li, ol ol li, ol ul li {
 }
 
 li {
-    line-height: 18px;
+    line-height: 30px;
     margin-bottom: 12px;
 }
 
@@ -2261,13 +2261,14 @@ footer {
     background: #333333;
     text-align: center;
     position: relative;
+    height: 4em;
 }
 
 /* social links */
 
 footer .social li  {
     margin-bottom: 0px;
-    padding-left: 25px;
+    padding-left: 35px;
     padding-top: 10px;
     display: inline-block;
 }
@@ -2571,11 +2572,8 @@ footer .social a:hover, footer .social a:focus {
 
     }
     /* header social links */
-    header .social {
-        font-size: 20px;
-    }
-    header .social li {
-        margin: 0 6px;
+    footer .social a {
+        font-size: 30px;
     }
     /* footer
  ------------------------------------------------------------------------ */
